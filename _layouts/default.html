@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }}</title>
+    <link href="/css/rouge.css" rel="stylesheet" >
+    <style>
+      main {
+        font-family: sans-serif;
+        max-width: 38rem;
+        padding: 2rem;
+        margin: auto;
+      }
+
+      pre {
+        white-space: break-spaces;
+        padding: 1rem;
+      }
+
+      .highlight {
+        border-radius: 0.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>{{ page.title }}</h1>
+      {{ content }}
+    </main>
+  </body>
+</html>
